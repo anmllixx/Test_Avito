@@ -1,0 +1,29 @@
+{
+  "name": "test_avito",
+  "version": "1.0.0",
+  "description": "Тестовое задание для Авито",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:mobile": "playwright test tests/mobile",
+    "test:desktop": "playwright test tests/desktop", 
+    "test:theme": "playwright test tests/mobile/theme-switch.spec.js",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmllixx/Test_Avito.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anmllixx/Test_Avito/issues"
+  },
+  "homepage": "https://github.com/anmllixx/Test_Avito#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2"
+  }
+}
