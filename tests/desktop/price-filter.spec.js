@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('TC-001: Фильтр "Диапазон цен" (десктоп)', () => {
+test.describe('TC-001: Фильтр "Диапазон цен"', () => {
   
   const priceFrom = (page) => page.locator('input[placeholder="От"]');
   const priceTo = (page) => page.locator('input[placeholder="До"]');

@@ -4,11 +4,16 @@
   "description": "Тестовое задание для Авито",
   "main": "index.js",
   "scripts": {
+    "install:all": "npm install && npx playwright install",
     "test": "playwright test",
     "test:mobile": "playwright test tests/mobile",
     "test:desktop": "playwright test tests/desktop", 
     "test:theme": "playwright test tests/mobile/theme-switch.spec.js",
     "report": "playwright show-report"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
   "repository": {
     "type": "git",
