@@ -37,12 +37,13 @@ npm run report
 | `npm run report` | Открыть HTML-отчёт с результатами |
 
 ## Структура тестов
+```text
 tests/
 ├── desktop/
-│ ├── price-filter.spec.js # TC-001: Фильтр "Диапазон цен"
-│ ├── sort-price.spec.js # TC-002, TC-003: Сортировка по цене
-│ ├── category-filter.spec.js # TC-004: Фильтр "Категория"
-│ ├── urgent-toggle.spec.js # TC-005: Тогл "Только срочные"
-│ └── stats-page.spec.js # TC-006, TC-007, TC-008: Статистика
+│   ├── price-filter.spec.js      # TC-001: Фильтр "Диапазон цен"
+│   ├── sort-price.spec.js        # TC-002, TC-003: Сортировка по цене
+│   ├── category-filter.spec.js   # TC-004: Фильтр "Категория"
+│   ├── urgent-toggle.spec.js     # TC-005: Тогл "Только срочные"
+│   └── stats-page.spec.js        # TC-006, TC-007, TC-008: Статистика
 └── mobile/
-└── theme-switch.spec.js # TC-009, TC-010: Переключение темы
+    └── theme-switch.spec.js      # TC-009, TC-010: Переключение темы
